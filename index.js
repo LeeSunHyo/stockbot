@@ -1,19 +1,4 @@
-const Discord = require('discord.js');
-
-<script type="text/javascript" src="discord.11.1.0.min.js"></script>
-<script type="text/javascript">
-  const client = new Discord.Client();
-
-  client.on('message', msg => {
-    const guildTag = msg.channel.type === 'text' ? `[${msg.guild.name}]` : '[DM]';
-    const channelTag = msg.channel.type === 'text' ? `[#${msg.channel.name}]` : '';
-    console.log(`${guildTag}${channelTag} ${msg.author.tag}: ${msg.content}`);
-  });
-
-  client.login('NzY4MDc3MTkxNzgyNTk2NjA4.X47NoA.x0d4koGa3KOQf-KqwHIsDzV2Uk8');
-</script>
-
-/* const Discord = require(`discord.js`); // discord.js를 불러옴
+const Discord = require(`discord.js`); // discord.js를 불러옴
 const client = new Discord.Client(); // 새로운 디스코드 클라이언트를 만듬
 
 
@@ -54,5 +39,4 @@ client.on('message', message => {
   }
 
 
-});*/
-
+});
