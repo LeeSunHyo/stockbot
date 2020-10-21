@@ -9,7 +9,7 @@ client.once('ready', () => {
 
 
 // 여러분의 디스코드 토큰으로 디스코드에 로그인합니다
-client.login(`NzY4MDc3MTkxNzgyNTk2NjA4.X47NoA.de01XNr4gA_O6mrKVUa_bsWOgsM`);
+client.login(process.env.BOT_TOKEN);
 
 
 client.on('message', message => {
