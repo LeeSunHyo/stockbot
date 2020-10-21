@@ -1,16 +1,16 @@
 {
 
-  "name": "선효투자증권",
+  "name": "SEONHYO",
 
-  "description": "선효투자증권",
+  "description": "SEONHYO",
 
   "version": "1.0.01",
 
-  "main": "index.js",
+  "main": "bot.js",
 
   "scripts": {
 
-    "start": "node index.js"
+    "start": "node bot.js"
 
   },
 
