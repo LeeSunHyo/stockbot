@@ -1,0 +1,1 @@
+worker: noe index.js
